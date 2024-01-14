@@ -5,10 +5,10 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg ">
+    <nav className="navbar sticky-top navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="src/index.js">
-          Raghda <span className="dot">•</span>
+        <a className="navbar-brand logo" href="src/index.js">
+          Raghda <i className="fa-solid fa-circle dot"></i>
         </a>
         <button
           className="navbar-toggler"
@@ -19,28 +19,24 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <a
-              className="nav-link active"
+              className="nav-link background"
               aria-current="page"
               href="src/About.js"
             >
               About
             </a>
-            <a className="nav-link" href="src/Projects.js">
+            <a className="nav-link background" href="src/Projects.js">
               Projects
             </a>
-            <a className="nav-link" href="src/Resume.js">
+            <a className="nav-link background" href="src/Resume.js">
               Resume
             </a>
-            <button
-              class="btn btn-outline-success"
-              type="submit"
-              href="src/Contact.js"
-            >
+            <button className="btn" type="button" href="src/Contact.js">
               Contact
             </button>
           </div>

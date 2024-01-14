@@ -1,0 +1,51 @@
+:root {
+  --main-color: #cc7339;
+  --seconadry-color: rgba(225, 221, 221, 0.45);
+}
+
+.navbar {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.logo:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.background {
+  color: #fff;
+  display: flex;
+  position: relative;
+  right: -350px;
+}
+
+.background:hover {
+  color: var(--seconadry-color);
+}
+
+.dot {
+  color: var(--main-color);
+  font-size: 8px;
+  margin-top: 15px;
+}
+.btn {
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  padding: 10px 40px;
+  color: #fff;
+  background-color: var(--main-color);
+  font-size: 18px;
+  display: flex;
+  position: relative;
+  right: -650px;
+}
+.btn:hover {
+  background-color: var(--main-color);
+  color: var(--seconadry-color);
+}
