@@ -1,5 +1,7 @@
 import React from "react";
 
-export default function App() {
+import "./Home.css";
+
+export default function Home() {
   return <h1> Hello from Portfolio</h1>;
 }

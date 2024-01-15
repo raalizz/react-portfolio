@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import "./Navbar.css";
 
@@ -8,10 +9,10 @@ export default function Navbar() {
     <nav className="navbar sticky-top navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand logo" href="src/index.js">
-          Raghda <i className="fa-solid fa-circle dot"></i>
+          RA <i className="fa-solid fa-circle dot"></i>
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler hamburger-btn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -35,6 +36,9 @@ export default function Navbar() {
             </a>
             <a className="nav-link background" href="src/Resume.js">
               Resume
+            </a>
+            <a className="nav-link background contact" href="src/Contact.js">
+              Contact
             </a>
             <button className="btn" type="button" href="src/Contact.js">
               Contact
