@@ -6,7 +6,6 @@
 .logo {
   color: #fff;
   font-size: 30px;
-  margin-left: 20px;
 }
 .logo:hover {
   color: #fff;
@@ -40,7 +39,7 @@
   font-size: 18px;
   display: flex;
   position: relative;
-  right: -690px;
+  right: -700px;
 }
 .btn:hover {
   background-color: #cc7339;
@@ -51,19 +50,35 @@
 }
 
 @media (max-width: 550px) {
+  .logo {
+    margin-left: -10px;
+  }
   .btn {
     display: none;
   }
   .background {
-    right: -150px;
+    left: 120px;
   }
   .contact {
     display: block;
+  }
+
+  .hamburger-btn {
+    margin-right: 10px;
   }
 }
 
 @media (max-width: 960px) {
   .btn {
     display: none;
+  }
+  .hamburger-btn {
+    margin-right: 10px;
+  }
+  .background {
+    right: -300px;
+  }
+  .contact {
+    display: block;
   }
 }
