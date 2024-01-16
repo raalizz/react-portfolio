@@ -1,4 +1,4 @@
-.Home hr {
+.Home .line-1 {
   width: 10%;
   border-top: 5px solid #cc7339;
   margin-top: 60px;
@@ -13,17 +13,74 @@
 .grid img {
   max-width: 500px;
 }
+.skills-btn {
+  border: 1px solid #cc7339;
+  border-radius: 10px;
+  padding: 7px 50px;
+  color: #fff;
+  background-color: #cc7339;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.skills-btn:hover {
+  color: rgba(225, 221, 221, 0.45);
+}
+.skills-btn:active {
+  background-color: #1d1a18;
+  transform: translateY(2px);
+  border: 1px solid #fff;
+  color: #fff;
+}
+.Home .line-2 {
+  width: 60%;
+  margin-top: 100px;
+}
 
+.Home h5 {
+  font-size: 15px;
+  font-weight: 100;
+}
+footer .line-3 {
+  width: 20px;
+  border-top: 2px solid #fff;
+  display: flex;
+  position: relative;
+  top: -25px;
+  right: -100px;
+}
+footer .icons {
+  display: flex;
+  position: relative;
+  top: -50px;
+  right: -130px;
+  gap: 10px;
+  font-size: 15px;
+}
+footer .contact-details {
+  color: #fff;
+  display: flex;
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+}
 @media (max-width: 550px) {
-  .Home hr {
+  .Home .line-1 {
     width: 20%;
   }
-  .grid {
-    grid-template-columns: 1fr;
+
+  .grid img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 960px) {
+  .Home .line-1 {
+    width: 22%;
   }
   .grid img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
+    width: 400px;
+  }
+  .Home .line-2 {
+    width: 70%;
   }
 }

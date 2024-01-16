@@ -12,7 +12,7 @@ export default function TypewriterComponent() {
       cursor: null,
       delay: 50,
     });
-  }, []);
+  });
 
   return (
     <div className="TypewriterComponent">
