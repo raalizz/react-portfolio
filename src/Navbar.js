@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand logo" href="src/index.js">
           RA <i className="fa-solid fa-circle dot"></i>

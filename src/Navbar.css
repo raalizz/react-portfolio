@@ -22,6 +22,10 @@
 .background:hover {
   color: rgba(225, 221, 221, 0.45);
 }
+
+.navbar-nav {
+  gap: 40px;
+}
 .contact {
   display: none;
 }
@@ -39,7 +43,7 @@
   font-size: 18px;
   display: flex;
   position: relative;
-  right: -700px;
+  right: -580px;
 }
 .btn:hover {
   background-color: #cc7339;
