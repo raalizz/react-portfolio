@@ -11,3 +11,9 @@ body {
   color: #fff;
   margin: 40px 40px 0 40px;
 }
+
+@media (max-width: 550px) {
+  body {
+    margin: none;
+  }
+}

@@ -61,7 +61,8 @@
     display: none;
   }
   .navbar-nav .background {
-    right: -220px;
+    right: -130px;
+    font-size: 15px;
   }
   .contact {
     display: block;
@@ -70,7 +71,8 @@
   .hamburger-btn {
     display: flex;
     position: relative;
-    right: -100px;
+    left: 40px;
+    width: 50px;
   }
 }
 
