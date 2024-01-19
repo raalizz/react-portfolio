@@ -70,7 +70,7 @@
   .hamburger-btn {
     display: flex;
     position: relative;
-    right: -250px;
+    right: -100px;
   }
 }
 
