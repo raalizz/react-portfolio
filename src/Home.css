@@ -11,7 +11,7 @@
 }
 
 .grid img {
-  max-width: 500px;
+  width: 610px;
 }
 .skills-btn {
   border: 1px solid #cc7339;
@@ -31,38 +31,7 @@
   border: 1px solid #fff;
   color: #fff;
 }
-.Home .line-2 {
-  width: 60%;
-  margin-top: 100px;
-}
 
-.Home h5 {
-  font-size: 15px;
-  font-weight: 100;
-}
-footer .line-3 {
-  width: 20px;
-  border-top: 2px solid #fff;
-  display: flex;
-  position: relative;
-  top: -25px;
-  right: -100px;
-}
-footer .icons {
-  display: flex;
-  position: relative;
-  top: -50px;
-  right: -130px;
-  gap: 10px;
-  font-size: 15px;
-}
-footer .contact-details {
-  color: #fff;
-  display: flex;
-  position: relative;
-  top: 1px;
-  text-decoration: none;
-}
 @media (max-width: 550px) {
   .Home .line-1 {
     width: 20%;
@@ -70,17 +39,15 @@ footer .contact-details {
 
   .grid img {
     width: 300px;
+    grid-gap: 30px;
   }
 }
 
 @media (max-width: 960px) {
-  .Home .line-1 {
-    width: 22%;
-  }
   .grid img {
     width: 400px;
   }
-  .Home .line-2 {
-    width: 70%;
+  .Home .line-1 {
+    width: 22%;
   }
 }

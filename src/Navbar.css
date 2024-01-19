@@ -60,15 +60,17 @@
   .btn {
     display: none;
   }
-  .background {
-    left: 120px;
+  .navbar-nav .background {
+    right: -220px;
   }
   .contact {
     display: block;
   }
 
   .hamburger-btn {
-    margin-right: 10px;
+    display: flex;
+    position: relative;
+    right: -250px;
   }
 }
 

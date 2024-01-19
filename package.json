@@ -37,7 +37,9 @@
       "last 1 safari version"
     ]
   },
+
   "devDependencies": {
-    "@types/bootstrap": "^5.2.10"
+    "@types/bootstrap": "^5.2.10",
+     "react-error-overlay": "6.0.9"
   }
-}
+} 
