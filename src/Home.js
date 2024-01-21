@@ -14,7 +14,8 @@ export default function Home() {
           <h1>
             <br />
             <br />
-            I'm <strong>Raghda Al-Shaikhli </strong>, a <br />
+            I'm <strong> Raghda Al-Shaikhli </strong>
+            , a <br />
             Front-end Developer{" "}
           </h1>
           <Typewriter />
