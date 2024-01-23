@@ -1,51 +1,47 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { Nav, Navbar as BootstrapNavbar } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
+import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <BootstrapNavbar expand="lg">
       <div className="container-fluid">
-        <a className="navbar-brand logo" href="src/index.js">
-          RA <i className="fa-solid fa-circle dot"></i>
-        </a>
-        <button
-          className="navbar-toggler hamburger-btn"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
+        <LinkContainer to="/">
+          <BootstrapNavbar.Brand className="logo">
+            RA <i className="fa-solid fa-circle dot"></i>
+          </BootstrapNavbar.Brand>
+        </LinkContainer>
+        <BootstrapNavbar.Toggle
+          className="hamburger-btn"
           aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a
-              className="nav-link background"
-              aria-current="page"
-              href="src/About.js"
-            >
-              About
-            </a>
-            <a className="nav-link background" href="src/Projects.js">
-              Projects
-            </a>
-            <a className="nav-link background" href="src/Resume.js">
-              Resume
-            </a>
-            <a className="nav-link background contact" href="src/Contact.js">
+        />
+        <BootstrapNavbar.Collapse id="navbarNavAltMarkup">
+          <Nav className="navbar-nav">
+            <LinkContainer to="/about">
+              <Nav.Link className="nav-link background">About</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/projects">
+              <Nav.Link className="nav-link background">Projects</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/resume">
+              <Nav.Link className="nav-link background">Resume</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/contact">
+              <Nav.Link className="nav-link background contact">
+                Contact
+              </Nav.Link>
+            </LinkContainer>
+            <Link to="/contact" className="btn">
               Contact
-            </a>
-            <button className="btn" type="button" href="src/Contact.js">
-              Contact
-            </button>
-          </div>
-        </div>
+            </Link>
+          </Nav>
+        </BootstrapNavbar.Collapse>
       </div>
-    </nav>
+    </BootstrapNavbar>
   );
 }
