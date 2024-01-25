@@ -21,6 +21,7 @@
   background-color: #cc7339;
   font-size: 18px;
   margin-top: 20px;
+  text-decoration: none;
 }
 .skills-btn:hover {
   color: rgba(225, 221, 221, 0.45);
@@ -50,6 +51,7 @@
     display: block;
     margin: 0 auto;
     margin-top: 40px;
+    text-align: center;
   }
 }
 

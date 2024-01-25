@@ -1,5 +1,6 @@
 import React from "react";
 import codingPic from "./images/coding-pic.png";
+import { Link } from "react-router-dom";
 
 import "./Home.css";
 import Typewriter from "./Typewriter";
@@ -19,13 +20,9 @@ export default function Home() {
             Front-end Developer{" "}
           </h1>
           <Typewriter />
-          <button
-            className="skills-btn"
-            type="button"
-            href="src/About.js/#skills"
-          >
+          <Link to="/about" type="button" className="skills-btn">
             Skills
-          </button>
+          </Link>
           <Footer />
         </div>
         <div>
