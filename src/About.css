@@ -1,26 +1,56 @@
 .About {
-  margin: 30px;
+  margin: 50px;
 }
 
-.grid .section-1 {
+.columns {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sections {
   background-color: #c5a189;
   border-radius: 10px;
-  max-width: 100%;
+  color: #000;
+  flex: 1;
 }
 
-.section-1 .my-image {
-  max-width: 300px;
-  padding: 20px 0 20px 0;
+.sections .my-pic {
   display: block;
   margin: 0 auto;
-}
-.grid .section-2 {
-  background-color: #c5a189;
+  max-width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
-  max-width: 100%;
-  color: #000;
 }
-.section-2 h2 {
-  text-align: center;
+
+.sections h2 {
   margin-top: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  padding-left: 20px;
+  letter-spacing: 5px;
+}
+.sections h6 {
+  font-weight: 100;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.icons {
+  color: #e54c36;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  padding: 0 30px 0 30px;
+  transition: all 200ms ease-in-out;
+}
+.icons:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 55px) {
+  .sections {
+    max-width: 100%;
+  }
 }
