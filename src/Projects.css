@@ -1,0 +1,12 @@
+.Projects h2 {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 60px;
+}
+.Projects .dots {
+  text-align: center;
+  font-size: 70px;
+}
+.images {
+  width: 50%;
+}
