@@ -1,12 +1,124 @@
 .Projects h2 {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 90px;
   font-size: 60px;
 }
 .Projects .dots {
   text-align: center;
   font-size: 70px;
+  margin-bottom: 20px;
 }
 .images {
-  width: 50%;
+  max-width: 500px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.projects {
+  background-color: #c5a189;
+  color: #000;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  margin-bottom: 10px;
+}
+.description p {
+  margin: 20px;
+  font-weight: 100;
+  font-size: 17px;
+  text-align: justify;
+}
+.description h3 {
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.description button {
+  border: 1px solid #cc7339;
+  border-radius: 10px;
+  padding: 7px 50px;
+  color: #fff;
+  background-color: #cc7339;
+  font-size: 18px;
+  margin: 20px 0 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+button:active {
+  background-color: #c5a189;
+  transform: translateY(2px);
+  border: 1px solid #000;
+}
+
+.description button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.description a:active {
+  color: #000;
+}
+.description button a:hover {
+  color: rgba(225, 221, 221, 0.45);
+}
+
+@media (max-width: 550px) {
+  .Projects h2 {
+    font-size: 30px;
+  }
+  .Projects .dots {
+    font-size: 30px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .description p {
+    font-size: 13px;
+  }
+  .description h3 {
+    font-size: 15px;
+  }
+  .description button {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .images {
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .images {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 280px) {
+  .images {
+    max-width: 190px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .description button {
+    padding: 5px;
+  }
 }
