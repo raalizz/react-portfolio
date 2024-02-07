@@ -6,4 +6,61 @@
   border-radius: 10px;
   margin-top: 50px;
   margin-bottom: 20px;
+  backface-visibility: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button {
+  border: 1px solid #cc7339;
+  border-radius: 10px;
+  padding: 9px 60px;
+  color: #fff;
+  background-color: #cc7339;
+  font-size: 18px;
+  margin: 20px 0 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+button:hover {
+  color: rgba(225, 221, 221, 0.45);
+}
+button:active {
+  background-color: #5e5c5b;
+  transform: translateY(2px);
+  border: 1px solid #cc7339;
+  color: #000;
+}
+
+figcaption {
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  max-width: 20rem;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.Resume:hover figcaption {
+  opacity: 1;
+}
+.Resume:hover .my-resume {
+  zoom: 1;
+  filter: alpha (opacity=20);
+  opacity: 0.3;
+}
+button:hover {
+  opacity: 1;
+  transition-delay: 0.2s;
+  transition: all 0.3s ease;
 }

@@ -10,11 +10,9 @@ export default function Resume() {
     <div className="Resume">
       <img src={resumePic} alt="my resume" className="my-resume" />
       <figcaption>
-        <button>
-          <a href={myResume} rel=" noopener noreferrer" target="_blank">
-            Download Resume
-          </a>
-        </button>
+        <a href={myResume} rel=" noopener noreferrer" target="_blank">
+          <button> Download Resume</button>
+        </a>
       </figcaption>
     </div>
   );
