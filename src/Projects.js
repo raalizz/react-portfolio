@@ -22,24 +22,24 @@ export default function Projects() {
             facing the challenge of having ingredients on hand but lacking
             inspiration on how to use them effectively.
           </p>
-          <button>
-            <a
-              href="https://nomnom-ninja-ai-project.netlify.app/"
-              target="_blank"
-              rel=" noopener noreferrer"
-            >
-              Launch App
-            </a>
-          </button>
-          <button>
-            <a
-              href="https://github.com/raalizz/nomnom-ninja-shecodes-AI-project"
-              target="_blank"
-              rel=" noopener noreferrer"
-            >
+
+          <a
+            href="https://nomnom-ninja-ai-project.netlify.app/"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            <button> Launch App </button>
+          </a>
+
+          <a
+            href="https://github.com/raalizz/nomnom-ninja-shecodes-AI-project"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            <button>
               <i className="fa-brands fa-github-alt"></i>
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
         <div className="project-images">
           <img
@@ -60,24 +60,24 @@ export default function Projects() {
             weather, humidity, wind speed ,clouds, and provide forecast for six
             days.
           </p>
-          <button>
-            <a
-              href="https://weather-application-by-react.netlify.app/"
-              target="_blank"
-              rel=" noopener noreferrer"
-            >
-              Launch App
-            </a>
-          </button>
-          <button>
-            <a
-              href="https://github.com/raalizz/react-weather-app"
-              target="_blank"
-              rel=" noopener noreferrer"
-            >
+
+          <a
+            href="https://weather-application-by-react.netlify.app/"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            <button> Launch App </button>
+          </a>
+
+          <a
+            href="https://github.com/raalizz/react-weather-app"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            <button>
               <i className="fa-brands fa-github-alt"></i>
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
         <div className="project-images">
           <img
@@ -97,24 +97,25 @@ export default function Projects() {
             nouns, adjectives, and verbs along with examples and accompanied by
             nine images that match the word you're looking for.
           </p>
-          <button>
-            <a
-              href="https://a-z-dictionary.netlify.app/"
-              target="_blank"
-              rel=" noopener noreferrer"
-            >
-              Launch App
-            </a>
-          </button>
-          <button>
-            <a
-              href="https://github.com/raalizz/react-dictionary-app"
-              target="_blank"
-              rel=" noopener noreferrer"
-            >
+
+          <a
+            href="https://a-z-dictionary.netlify.app/"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            <button> Launch App </button>
+          </a>
+
+          <a
+            href="https://github.com/raalizz/react-dictionary-app"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            <button>
+              {" "}
               <i className="fa-brands fa-github-alt"></i>
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
         <div className="project-images">
           <img
@@ -135,24 +136,25 @@ export default function Projects() {
             find eight locations with their descriptions and addresses, along
             with buttons linked to Google Maps.
           </p>
-          <button>
-            <a
-              href="https://hp-filming-locations-project.netlify.app/"
-              target="_blank"
-              rel=" noopener noreferrer"
-            >
-              Launch App
-            </a>
-          </button>
-          <button>
-            <a
-              href="https://github.com/raalizz/HP-filming-locations-project"
-              target="_blank"
-              rel=" noopener noreferrer"
-            >
-              <i className="fa-brands fa-github-alt"></i>
-            </a>
-          </button>
+
+          <a
+            href="https://hp-filming-locations-project.netlify.app/"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            <button> Launch App </button>
+          </a>
+
+          <a
+            href="https://github.com/raalizz/HP-filming-locations-project"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            <button>
+              {" "}
+              <i className="fa-brands fa-github-alt"></i>{" "}
+            </button>
+          </a>
         </div>
         <div className="project-images">
           <img

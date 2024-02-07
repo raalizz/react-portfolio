@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-button {
+.resume-btn {
   border: 1px solid #cc7339;
   border-radius: 10px;
   padding: 9px 60px;
@@ -25,15 +25,15 @@ button {
   margin-bottom: 20px;
 }
 
-button a {
+.resume-btn a {
   color: #fff;
   text-decoration: none;
   font-size: 13px;
 }
-button:hover {
+.resume-btn:hover {
   color: rgba(225, 221, 221, 0.45);
 }
-button:active {
+.resume-btn:active {
   background-color: #5e5c5b;
   transform: translateY(2px);
   border: 1px solid #cc7339;
@@ -58,9 +58,4 @@ figcaption {
   zoom: 1;
   filter: alpha (opacity=20);
   opacity: 0.3;
-}
-button:hover {
-  opacity: 1;
-  transition-delay: 0.2s;
-  transition: all 0.3s ease;
 }
