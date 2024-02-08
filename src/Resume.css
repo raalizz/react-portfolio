@@ -59,3 +59,53 @@ figcaption {
   filter: alpha (opacity=20);
   opacity: 0.3;
 }
+
+@media (max-width: 550px) {
+  .Resume .my-resume {
+    width: 100%;
+  }
+  .resume-btn {
+    font-size: 15px;
+    padding: 9px 40px;
+    display: flex;
+    position: relative;
+    top: -250px;
+    right: -5px;
+  }
+}
+
+@media (max-width: 960px) {
+  .Resume .my-resume {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Resume .my-resume {
+    width: 100%;
+  }
+  .resume-btn {
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    top: -150px;
+  }
+}
+@media (max-width: 540px) {
+  .resume-btn {
+    font-size: 15px;
+    padding: 9px 30px;
+  }
+}
+
+@media (max-width: 280px) {
+  .Resume .my-resume {
+    width: 100%;
+  }
+  .resume-btn {
+    font-size: 9px;
+    display: flex;
+    position: relative;
+    right: -26px;
+  }
+}
