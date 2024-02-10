@@ -15,7 +15,7 @@ export default function Contact() {
       })
       .then(
         () => {
-          alert("Message Sent");
+          alert("Message Sent.Thank you!");
           console.log("SUCCESS!");
         },
         (error) => {
