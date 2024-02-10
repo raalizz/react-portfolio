@@ -6,7 +6,7 @@ import "./About.css";
 export default function About() {
   return (
     <div className="About">
-      <div className="container">
+      <div className="about-container">
         <div className="row row-cols-3 columns">
           <div className="col-sm sections">
             <img src={myPicture} alt="personal pic" className="my-pic" />
