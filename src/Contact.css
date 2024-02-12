@@ -44,3 +44,46 @@ form textarea {
   margin: 20px auto 0;
   border-radius: 30px;
 }
+.contact-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-info {
+  color: #cc7339;
+  font-size: 60px;
+  padding: 0 50px 0 50px;
+  transition: all 200ms ease-in-out;
+}
+.contact-info:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 550px) {
+  .contact-container {
+    margin-top: -20px;
+  }
+  .contact-info {
+    font-size: 30px;
+    padding: 0 30px 0 30px;
+  }
+  form input,
+  form textarea {
+    font-size: 13px;
+  }
+  .contact-btn {
+    font-size: 13px;
+  }
+}
+@media (max-width: 960px) {
+  .contact-info {
+    font-size: 50px;
+    padding: 0 40px 0 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .contact-info {
+    font-size: 50px;
+    padding: 0 40px 0 40px;
+  }
+}

@@ -56,6 +56,34 @@ export default function Contact() {
           </button>
         </form>
       </div>
+      <div className="contact-icons">
+        <a
+          href="https://www.linkedin.com/in/raghdaalizz/"
+          title="Linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-info"
+        >
+          <i className="fa-brands fa-linkedin"> </i>
+        </a>
+        <a
+          href="https://github.com/raalizz"
+          title="GitHub"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-info"
+        >
+          <i className="fa-brands fa-github"></i>
+        </a>
+
+        <a
+          href="mailto:raalizz.h@gmail.com"
+          title="Email"
+          className="contact-info"
+        >
+          <i className="fa-solid fa-envelope"></i>
+        </a>
+      </div>
     </div>
   );
 }
