@@ -11,7 +11,7 @@ export default function Footer() {
         <span>
           <hr className="line-3" />
         </span>
-        <span className="icons">
+        <span className="footer-icons">
           <a
             href="https://www.linkedin.com/in/raghdaalizz/"
             title="Linkedin"
