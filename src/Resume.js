@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "./documents/Raghda-alizz-alshaikhli-resume.pdf";
+import myResume from "./documents/Raghda-Alizz-AlShaikhli.pdf";
 
 import resumePic from "./images/resume-pic.png";
 
